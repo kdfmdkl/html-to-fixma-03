@@ -575,7 +575,7 @@ img.img3:hover {
   font-family: Sora;
   font-weight: 300;
   font-style: Light;
-  font-size: 22px;
+  font-size: 22 px;
   line-height: 30px;
   margin-top: 18px;
   color: #ffffff;
@@ -589,4 +589,107 @@ img.img3:hover {
   justify-content: center;
   gap: 28px;
   margin-top: 38px;
+}
+/* ========= blog ======== */
+.blog {
+  margin-top: 170px;
+}
+.blog .blog-all {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 130px;
+}
+/* left */
+.blog .blog__left {
+  width: 470px;
+  height: 240px;
+}
+.blog__left .heading-7 {
+  font-family: Sora;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 50px;
+  line-height: 60px;
+  color: #10375c;
+}
+.blog__left .page-12 {
+  font-family: Sora;
+  font-weight: 300;
+  font-style: Light;
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 18px;
+  color: #575f66;
+  margin-top: 28px;
+}
+.blog__left .left-fig {
+  display: flex;
+  gap: 18px;
+  margin-top: 28px;
+}
+.left-fig .els {
+  width: 36px;
+  height: 36px;
+  border: 1px solid #575f66;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.left-fig .els:hover {
+  background-color: #2e80ce;
+}
+.left-fig .els--mr {
+  color: black;
+}
+/* right */
+.blog .blog__right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.blog__right .blog-right__item {
+  width: 270px;
+  height: 375px;
+  border-radius: 6px;
+  border: 1px solid #eaf6ff;
+  box-shadow: 0px 18px 50px 0px #0000000d;
+}
+.blog-right__item .blog-lr {
+  padding: 0 23px;
+}
+.blog-lr .page-12 {
+  font-family: Sora;
+  font-weight: 400;
+  font-style: semiBold;
+  font-size: 23px;
+  line-height: 26px;
+  color: #10375c;
+  margin-top: 12px;
+}
+.blog-lr .page-13 {
+  font-family: Sora;
+  font-weight: 300;
+  font-style: Light;
+  font-size: 17px;
+  line-height: 24px;
+  color: #575f66;
+  margin-top: 10px;
+}
+.blog-lr .learn {
+  color: #2e80ce;
+  margin-top: 12px;
+  font-family: Sora;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 100%;
+  display: inline-block;
+}
+.blog-lr .learn:hover {
+  color: #10375c;
 }
