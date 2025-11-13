@@ -7,6 +7,30 @@ html {
 body {
   font-family: 1.6rem;
 }
+@media (min-width: 319px) and (max-width: 480px) {
+  body {
+    height: 319px;
+    width: 319px;
+  }
+}
+@media (min-width: 481px) and (max-width: 1200px) {
+  body {
+    height: 481px;
+    width: 481px;
+  }
+}
+@media (min-width: 1201px) and (max-width: 1600px) {
+  body {
+    height: 1201px;
+    width: 1201px;
+  }
+}
+@media (min-width: 1601px) and (max-width: 10000px) {
+  body {
+    height: 1601px;
+    width: 1601px;
+  }
+}
 /* ================header============ */
 .header {
   height: 800px;
