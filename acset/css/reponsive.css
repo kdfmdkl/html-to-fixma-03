@@ -1,0 +1,121 @@
+/* Pc */
+@media (min-width: 992px) {
+  .mobile-header {
+    display: none;
+  }
+}
+/* Talet  and mobile*/
+@media (max-width: 991.98px) {
+  .nav {
+    display: none;
+  }
+
+  .header-top {
+    position: relative;
+  }
+
+  .logo-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+  }
+
+  .mobile-header__menu {
+    position: absolute;
+    top: 31px;
+    left: 52px;
+    cursor: pointer;
+    color: white;
+    width: 25px;
+    height: 25px;
+  }
+
+  /* Overlay khi rỗi */
+  .overlay {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    inset: 0;
+    transition: all 0.3s ease; /* BẬT transition */
+  }
+
+  /* Khi checkbox checked */
+  #menu-list:checked ~ .overlay {
+    opacity: 1;
+    visibility: visible;
+  }
+  .nav-mobile {
+    position: fixed;
+    background-color: #3d3c3c;
+    z-index: 2;
+    transition: all 0.3s ease; /* BẬT transition */
+    inset: 0 55% 0 0;
+    transform: translate(-100%);
+  }
+  #menu-list:checked ~ .nav-mobile {
+    transform: translate(0);
+  }
+
+  .nav-mobile .nav-logo {
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+
+    padding: 12px 40px;
+  }
+
+  .nav-mobile .nav-logo > * {
+    flex: 0 0 auto; /* tránh con bị width:100% của rule khác */
+    width: auto;
+  }
+
+  /* override rule .logo-img đang bị position:absolute ở header */
+  .nav-mobile .nav-logo .logo-imgg {
+    position: static !important;
+    width: 70px; /* chỉnh theo ý bạn */
+    height: auto;
+    display: block;
+  }
+
+  .nav-mobile .nav-logo label {
+    /* nút đóng là label/ svg */
+    width: 32px;
+    height: 32px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #fff;
+  }
+  /* menu list */
+  #nav__list-mobile {
+    list-style: none;
+    margin: 8px 0 24px 0;
+    padding: 40px;
+    width: 100%;
+  }
+  #nav__list-mobile li a {
+    display: block;
+    padding: 14px 18px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  /* hover / active */
+  #nav__list-mobile li a:hover,
+  #nav__list-mobile li.active a {
+    background: #156c9a; /* màu highlight */
+    color: #ffffff;
+  }
+  /* Talet */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+  }
+  /* Mobile */
+  @media (max-width: 767.98px) {
+  }
+}
