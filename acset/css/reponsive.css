@@ -112,6 +112,59 @@
     background: #156c9a; /* màu highlight */
     color: #ffffff;
   }
+  /* ==== hero=== */
+  .header__bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .header__left {
+    order: 2;
+    width: 100% !important;
+    margin-top: 24px !important; /* ép nó không kế thừa 60px từ style.css */
+    margin-bottom: 170px !important;
+    text-align: center;
+  }
+  .header__right {
+    order: 1;
+  }
+
+  .header__left .heading__2 {
+    width: 100%;
+  }
+  .header__left .button__and_p {
+    justify-content: center;
+  }
+  /* Ourr */
+  .main__bottom {
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-bottom-right {
+    margin: 0 auto;
+  }
+  .btn-all {
+    margin-left: 91px;
+  }
+  /* Word */
+  .section__main .work__left {
+    margin: 0 auto;
+  }
+  .section__main .word-right {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 170px;
+  }
+  .tes-ainm .container {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .testimonial__bottom .btn-lead {
+    margin-left: 123px;
+  }
   /* Talet */
   @media (min-width: 768px) and (max-width: 991.98px) {
   }

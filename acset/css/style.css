@@ -10,7 +10,6 @@ body {
 
 /* ================header============ */
 .header {
-  height: 800px;
   background-color: #10375c;
 }
 /* ==========container chung============ */
@@ -268,7 +267,6 @@ img.img3:hover {
 .section__main {
   background: #f6fbff;
   padding-top: 100px;
-  height: 826px;
   margin-left: auto;
   margin-right: auto;
 }
