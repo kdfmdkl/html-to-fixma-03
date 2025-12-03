@@ -148,15 +148,26 @@
     margin-left: 91px;
   }
   /* Word */
-  .section__main .work__left {
+  /* .section__main .work__left {
     margin: 0 auto;
-  }
+  } */
   .section__main .word-right {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-bottom: 170px;
   }
+  .word-right .word__seach {
+    width: 100%;
+  }
+  .word-right .heading__4,
+  .word__seach .page7 {
+    padding: 12px 0;
+  }
+  .word__seach .page7 {
+    width: 100%;
+  }
+  /* tes */
   .tes-ainm .container {
     flex-direction: column;
     align-items: center;
@@ -165,8 +176,54 @@
   .testimonial__bottom .btn-lead {
     margin-left: 123px;
   }
-  /* Talet */
+  /* tean */
+
+  .team .team__bottom {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 30px;
+  }
+  .team__bottom .item__all {
+    margin: 0 auto;
+  }
+  /* cta */
+  .img__6 {
+    display: none;
+  }
+  .cta .cta-all {
+    gap: inherit;
+  }
+  .cta-all .cta__right {
+    margin: 0 auto;
+    width: 499px;
+  }
+  /* blog */
+  .blog .blog-all {
+    flex-direction: column-reverse;
+  }
+  .blog .blog__left {
+    width: inherit;
+    margin-left: 10px;
+  }
+  .blog__left .page-12 {
+    text-align: center;
+  }
+  .blog__left .heading-7 {
+    width: 612px;
+  }
+  .blog__left .left-fig {
+    justify-content: center;
+  }
+  /* Tablet */
   @media (min-width: 768px) and (max-width: 991.98px) {
+    /* footer */
+    .footer__left {
+      display: none;
+    }
+    .footer .footer-top {
+      display: grid;
+      grid-template-columns: 0.5fr 0.5fr 1fr;
+    }
   }
   /* Mobile */
   @media (max-width: 767.98px) {
