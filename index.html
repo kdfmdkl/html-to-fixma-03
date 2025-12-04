@@ -113,14 +113,14 @@
           <!-- nav -->
           <nav class="nav">
             <ul class="nav__list" id="nav__list-pc">
-              <li class="nav__item">
+              <li class="nav__item ">
                 <a href="#!" class="nav_link nav__link--ellip">Home</a>
               </li>
-              <li class="nav__item">
+              <li class="nav__item nav-tablet">
                 <a href="#!" class="nav_link">Services</a>
               </li>
-              <li class="nav__item"><a href="#!" class="nav_link">About</a></li>
-              <li class="nav__item">
+              <li class="nav__item nav-tablet"><a href="#!" class="nav_link">About</a></li>
+              <li class="nav__item nav-tablet">
                 <a href="#!" class="nav_link">Doctors</a>
               </li>
             </ul>
@@ -187,6 +187,12 @@
           const navListMobile = document.getElementById('nav__list-mobile');
           navListMobile.innerHTML = navListPc.innerHTML;
          </script>
+        <div class="layoutt">
+           <div class="log-in__mobile">
+            <a href="#!" class="action__login-mobile">Log In</a>
+            <a href="#!" class="action__signup-mobile">Sign Up</a>
+           </div>
+        </div>
       </div>
     </div>
 

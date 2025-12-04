@@ -95,7 +95,7 @@
   /* menu list */
   #nav__list-mobile {
     list-style: none;
-    margin: 8px 0 24px 0;
+    margin: 8px 0 8px 0;
     padding: 40px;
     width: 100%;
   }
@@ -105,6 +105,9 @@
     color: #fff;
     text-decoration: none;
     font-size: 16px;
+  }
+  .nav-tablet {
+    padding-left: 14px;
   }
   /* hover / active */
   #nav__list-mobile li a:hover,
@@ -227,5 +230,48 @@
   }
   /* Mobile */
   @media (max-width: 767.98px) {
+    /* header */
+    .action {
+      display: none;
+    }
+    .mobile-header__menu {
+      top: 19px;
+      left: 22px;
+    }
+    #nav__list-mobile {
+      padding: 12px;
+    }
+    .nav-mobile .nav-logo {
+      padding: 0 20px;
+    }
+    .layoutt {
+      border-top: 1.5px solid #555;
+      width: 70%;
+      margin-left: 24px;
+    }
+    .log-in__mobile {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 138px;
+      gap: 8px;
+      margin-top: 20px;
+      height: 60px;
+      padding-top: 20px;
+    }
+    .log-in__mobile .action__login-mobile,
+    .action__signup-mobile {
+      font-family: Sora;
+      font-weight: 300;
+      font-style: Light;
+      font-size: 16px;
+      line-height: 28px;
+      padding: 8px 18px;
+    }
+    .log-in__mobile .action__login-mobile:hover,
+    .action__signup-mobile:hover {
+      color: #ffffff;
+      background-color: #156c9a;
+    }
   }
 }
