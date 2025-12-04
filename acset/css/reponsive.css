@@ -269,12 +269,87 @@
       font-style: Light;
       font-size: 16px;
       line-height: 28px;
-      padding: 8px 28px;
+      padding: 8px 18px;
     }
     .log-in__mobile .action__login-mobile:hover,
     .action__signup-mobile:hover {
       color: #ffffff;
       background-color: #156c9a;
+    }
+    .nav__link--ellip::before {
+      display: none;
+    }
+    .nav_home {
+      margin-left: 14px;
+    }
+    /* hero */
+    .header__right .header__bottom--img2 {
+      display: none;
+    }
+    .header__bottom {
+      gap: 8px;
+    }
+    .header__left .heading__2 {
+      font-size: 55px;
+    }
+    .header__left .page__1 {
+      font-size: 16px;
+    }
+    .header__left .button__and_p {
+      flex-direction: column;
+    }
+    .header {
+      height: 1250px;
+    }
+    /* Ourr */
+    .main {
+      padding: 85px 0;
+    }
+    .main__top .heading__2 {
+      font-size: 45px;
+    }
+    .main__bottom {
+      gap: 60px;
+      padding: 60px 0 0 0;
+    }
+    .main__top .page__3 {
+      font-size: 16px;
+      width: 100%;
+    }
+    .main-bottom-left {
+      width: inherit;
+      height: inherit;
+    }
+    .main-bottom-left img {
+      width: 350px;
+      padding: 10px;
+    }
+    .btn-all {
+      margin-left: 68px;
+      margin-bottom: 20px;
+    }
+    .section__main {
+      margin-top: 100px;
+    }
+    .main-bottom-right .main-bottom-right__item {
+      width: 348px;
+      margin-right: 10px;
+    }
+    .main-bottom-right__item:hover {
+      box-shadow: 0px 0px 16px 0px #289bde26;
+      border-radius: 12px;
+    }
+    /* Word */
+    .section__main .work__left {
+      padding: inherit;
+    }
+    .work__left .page__6 {
+      width: 300px;
+    }
+    .word__seach img,
+    .word__seach .heading__4,
+    .word__seach .page7 {
+      margin: 15px 0 0 15px;
     }
   }
 }
