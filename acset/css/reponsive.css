@@ -351,5 +351,135 @@
     .word__seach .page7 {
       margin: 15px 0 0 15px;
     }
+    /* tes */
+    .tes-ainm .container {
+      gap: 0px;
+    }
+    .tes-ainm {
+      margin-top: 0px;
+    }
+    .tes-ainm .container .testimonial__top .img-2 {
+      display: none;
+    }
+    .tes-ainm .container .testimonial__top {
+      width: 400px;
+    }
+    .testimonial__top .img_1 {
+      width: 400px;
+      height: inherit;
+    }
+    .testimonial__bottom .heading-4 {
+      font-size: 37px;
+      width: 370px;
+      margin: 0 auto;
+    }
+    .testimonial__bottom .page-8 {
+      width: 370px;
+      margin: 0 auto;
+    }
+    /* team */
+    .main {
+      padding: 50px 0;
+    }
+    .team {
+      margin-top: 70px;
+    }
+    .team .team__top {
+      width: 340px;
+    }
+    .team__top .heading-5 {
+      font-size: 36px;
+      text-align: center;
+      width: 340px;
+    }
+    .team .btn-met {
+      margin-left: 58px;
+    }
+    .team .team__bottom {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    /* cta */
+    .cta {
+      margin-top: 100px;
+    }
+    .cta .cta-all {
+      padding: 0px 35px;
+    }
+    .cta__right .heading-6 {
+      font-size: 33px;
+      width: 100%;
+    }
+    .cta .cta__right {
+      height: auto;
+    }
+    .cta__right .page-11 {
+      font-size: 18px;
+    }
+    /* blog */
+    .blog {
+      margin-top: 100px;
+    }
+    .blog .blog__right {
+      flex-direction: column;
+    }
+    .blog__right .blog-right__item {
+      width: inherit;
+      height: inherit;
+      padding: 0 0 20px 0;
+    }
+    .blog .blog__right .img-7 {
+      width: 100%;
+    }
+    .blog__left .heading-7 {
+      font-size: 36px;
+      width: 100%;
+    }
+    .blog__left .page-12 {
+      text-align: start;
+    }
+    /* cta-2 */
+    .cta-2 {
+      margin-top: 100px;
+    }
+    .cta-2 .container {
+      height: 420px;
+      padding: 20px;
+    }
+    .cta-2 .heading-8 {
+      font-size: 36px;
+      text-align: start;
+    }
+    .cta-2 .page-13 {
+      font-size: 16px;
+      text-align: start;
+    }
+    .cta-2 .hr-1 {
+      width: 249px;
+    }
+    /* footer */
+    .footer {
+      height: inherit;
+    }
+    .footer .footer-top {
+      display: grid;
+      grid-template-columns: 1fr;
+      row-gap: 30px;
+      padding-top: 40px;
+    }
+    .footer__right {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+    .fb .hr-2 {
+      margin-top: 60px;
+    }
+    .fb .page-14 {
+      padding-bottom: 50px;
+    }
+    /*  */
+    .word__seach .page7 {
+      width: 275px;
+    }
   }
 }
